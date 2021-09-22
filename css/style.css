@@ -17,13 +17,28 @@ body {
   z-index: 1;
 }
  
-.header h1 {
-  font: normal 30px "Cookie", cursive;
+.logo {
+  width: 160px;
+  padding: 10px;
+  margin: 15px;
+  z-index: 111;
+  margin-left: -1000px;
+  transition: 0.5s;
+  animation-name: slideIn;
+  animation-duration: 0.5s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
 }
- 
-.header span {
-  color: #4b0bc2;
+
+@keyframes slideIn {
+  from {
+    margin-left: -1000px;
+  }
+  to {
+    margin-left: 0;
+  }
 }
+
  
 .sticky-navbar {
   background: linear-gradient(
@@ -345,14 +360,10 @@ body {
   width: 30%;
 }
  
-.footer-distributed h3 {
-  color: #ffffff;
-  font: normal 36px "Cookie", cursive;
-  margin: 0;
-}
- 
-.footer-distributed h3 span {
-  color: #ffffff;
+.logo-footer {
+  width: 160px;
+  padding: 10px;
+  margin: 10px;
 }
  
 /* Footer links */
