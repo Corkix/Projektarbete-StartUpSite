@@ -64,12 +64,8 @@ body {
   position: relative;
   right: 30%;
 }
-/* 
-  Added
-  font-weight: bold;
-  transition: 0.5s;
-  padding: 10px 20px;
-*/
+
+
 .link-wrapper a {
   text-decoration: none;
   color: black;
