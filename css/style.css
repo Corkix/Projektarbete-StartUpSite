@@ -477,8 +477,8 @@ body {
 
 @media screen and (max-width: 800px) {
   body {
-    width: 100vh;
-    height: auto;
+    width: 100%;
+    height: 100vh;
   }
 
   .footer-distributed {
@@ -495,9 +495,9 @@ body {
     visibility: hidden;
   }
 
-  #hero-section video {
+  /* #hero-section video {
     width: 100%;
-  }
+  } */
 
   .hero-video-overlay h1 {
     font-size: 25px;
