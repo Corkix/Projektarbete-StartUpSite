@@ -278,64 +278,98 @@ body {
   margin-top: 20px;
 }
  
-.contact-section-container {
-  display: flex;
-  justify-content: center;
-}
- 
 #contact-section {
   text-align: center;
 }
- 
-.contact-section {
+
+.contact-card-section {
   display: flex;
-  flex-direction: column;
-  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+
 }
- 
-.contact-section p {
-  width: 50%;
-}
- 
-.contact-section span {
-  font-size: larger;
-  font-weight: bold;
-}
- 
-.contact-section img {
-  border: 3px solid black;
-  width: 30vh;
-  border-radius: 50%;
-  padding: 2px;
-  margin-right: 10%;
-  margin-left: 10%;
-}
- 
-.profile-lr {
+
+.card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-color: #5f21c2;
+  color: aliceblue;
+  width: 300px;
   padding: 20px;
+  margin: 40px;
+  text-align: center;
   border-radius: 10px 50px;
-  margin: 20px;
-  display: flex;
-  align-items: center;
-  background-color: rgba(94, 4, 240, 0.692);
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.5s;
 }
- 
-.profile-rl {
-  padding: 20px;
-  border-radius: 50px 10px;
-  background-color: rgba(94, 4, 240, 0.692);
-  margin: 20px;
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+.card:hover {
+  transform: scale(1.05);
 }
- 
-.profile-rl:hover,
-.profile-lr:hover {
-  transform: scale(1.01);
+
+.profile-img-1 {
+  width: 200px;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 50%;
 }
+
+.card-title {
+  color: grey;
+  font-size: 18px;
+}
+
+.contact-card-social-icon i {
+  margin: 0 5px;
+}
+
+.card-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  margin-bottom: 10px;
+  color: #5e21c2;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 70%;
+  font-size: 18px;
+  border-radius: 5px 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: aqua;
+  transition: 0.5s;
+}
+
+#card-button-1:hover {
+  background-color: #4cbcaf;
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+#card-button-2:hover {
+  background-color: #c55a9f;
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+#card-button-3:hover {
+  background-color: #f58f49;
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
 #social-section {
   display: flex;
   flex-direction: column;
