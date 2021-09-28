@@ -13,7 +13,7 @@ body {
   justify-content: space-between;
   width: 95%;
   padding: 2.5%;
-  height: 40px;
+  height: 60px;
   z-index: 1;
 }
  
@@ -466,21 +466,6 @@ footer {
     text-align: center;
   }
  
-  .footer-distributed {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
- 
-    padding-bottom: 20px;
-    margin-bottom: 10px;
-  }
- 
-  .header h1 {
-    width: 100%;
-    text-size-adjust: auto;
-  }
- 
   #about-section {
     height: auto;
     display: flex;
@@ -500,16 +485,6 @@ footer {
     transform: scale(0.8);
     margin: 0;
     padding: 0;
-  }
- 
-  .header {
-    transform: scale(0.8);
-    text-align: center;
-  }
- 
-  .contact-section img {
-    margin-right: 5%;
-    margin-left: 5%;
   }
 }
  
