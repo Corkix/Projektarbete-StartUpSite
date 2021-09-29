@@ -88,12 +88,13 @@ body {
   color: black;
   padding: 10px 20px;
   font-weight: bold;
+  font-size: 18px;
   transition: 0.5s;
 }
  
 .link-wrapper a:hover {
   color: rgba(94, 4, 240, 0.836);
-  font-size: 17px;
+  font-size: 16px;
 }
  
 #home-section {
@@ -346,15 +347,15 @@ body {
   border-radius: 5px 20px;
 }
 
-a {
+.contact-card-social-icon a {
   text-decoration: none;
   font-size: 22px;
   color: rgb(255, 255, 255);
+  transition: 0.5s;
 }
 
-a:hover {
+.contact-card-social-icon a:hover {
   color: aqua;
-  transition: 0.5s;
 }
 
 #card-button-1:hover {
